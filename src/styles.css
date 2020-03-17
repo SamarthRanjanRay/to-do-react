@@ -1,0 +1,53 @@
+* {
+  box-shadow: border-box;
+}
+
+#root {
+  border: 10px double white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2%;
+  background: black;
+  font-family: "Space Mono", monospace;
+}
+
+form {
+  border-bottom: grey 5px dotted;
+  padding: 10px;
+}
+
+input {
+  border-radius: 20px;
+  padding: 2%;
+  text-align: center;
+  width: 95%;
+  font-family: "Space Mono", monospace;
+  font-size: 2em;
+}
+
+ul {
+  padding: 2%;
+  width: 95%;
+  border-right: 5px white dashed;
+  border-left: 5px white dashed;
+  border-radius: 10%;
+}
+
+li {
+  list-style: none;
+  border: 1px solid grey;
+  margin: 1%;
+  padding: 1%;
+  background: grey;
+  opacity: 0.9;
+  font-size: 1em;
+}
+
+[style="text-decoration: line-through"] {
+  opacity: 0.5;
+  background: black;
+}
+
+.left {
+  float: left;
+}
